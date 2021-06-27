@@ -1,0 +1,105 @@
+.wrapper {
+	background: linear-gradient(120deg, rgb(252, 101, 176), rgb(247, 151, 183));
+	min-height: 100vh;
+	position: relative;
+	padding-bottom: 50px;
+}
+
+.nav-link:hover {
+	opacity: .9;
+}
+
+.nav-link.active {
+	opacity: .8;
+}
+
+.progress {
+	border: 1px solid black;
+	border-radius: 20px;
+	height: 35px;
+	width: 100%;
+	position: relative;
+}
+.progress-line {
+	border-radius: 20px;
+	background-color: springgreen;
+	height: 35px;
+	font-weight: 500;
+	transition: all;
+	transition-duration: .5s;
+}
+
+.progress-text {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translateX(-50%) translateY(-50%);
+}
+
+.tasks-wrapper {
+	padding: 0px 5px;
+	padding-left: 13px;
+}
+
+.time-block {
+	padding: 7px;
+	background-color: white;
+	border-radius: 5px;
+}
+
+.time-info {
+	font-size: 19px;
+	font-weight: bold;
+}
+
+.task-item {
+	background-color: white;
+	border-radius: 5px;
+}
+
+.task-item p {
+	font-weight: 500;
+}
+
+.form-quiz {
+	border: 1px solid #ccc;
+}
+
+.habit-description {
+	resize: none;
+	width: 100%;
+	min-height: 130px;
+	display: block;
+	padding: 5px;
+}
+
+.days-wrapper {
+	padding-right: 10px;
+}
+
+.avatar-img {
+	width: 100%;
+	border-radius: 50%;
+	width: 25px;
+	height: 25px;
+}
+
+.profile-img {
+	width: 100%;
+	border-radius: 50%;
+	width: 35px;
+	height: 35px;
+}
+
+.img-wrapper {
+	overflow: hidden;
+	margin: 0 auto;
+	width: 150px;
+	height: 150px;
+	border-radius: 50%;
+}
+
+.profile-avatar {
+	max-width: 100%;
+	height: auto;
+}
